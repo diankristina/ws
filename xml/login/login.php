@@ -1,18 +1,15 @@
 <center><h2><b>Log In</b></h2></center>
 <?php
 //memulai 
-session 
-session_st
-art();
-//cek adanya session, jika session sudah ada maka 
-diarahkan ke index.php if 
-(ISSET($_SESSION['username'])){
+//session 
+session_start();
+//cek adanya session, jika session sudah ada maka diarahkan ke index.php
+if(ISSET($_SESSION['username'])){
 header("location:index.php");
 }
 ?>
 <form method="post" action="client.php">
-<table border="0" align="center" cellpadding="5"
-cellspacing="8">
+<table border="0" align="center" cellpadding="5" cellspacing="8">
 <tr>
 <td>Username : </td>
 <td><input name="username" type="text"></td>
