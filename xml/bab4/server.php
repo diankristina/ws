@@ -1,4 +1,4 @@
-<?php
+<?php 
   require_once 'nusoap/lib/nusoap.php';
   require_once 'adodb/adodb.inc.php';
   $server = new nusoap_server();

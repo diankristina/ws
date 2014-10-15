@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: text/xml; charset=ISO-8859-1');
 include "koneksi.php";
-
+ 
 $path_params = array();
 $self = $_SERVER['PHP_SELF'];
 $extension = substr($self, strlen($self)-3);

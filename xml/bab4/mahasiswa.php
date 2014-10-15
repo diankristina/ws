@@ -2,7 +2,7 @@
 
 //1.koneksi database
 $konek = mysql_connect("localhost","root","") or die(mysql_error());
-$db = mysql_select_db("sit");
+$db = mysql_select_db("sit"); 
 
 if ($konek) {
   echo "Berhasil Koneksi ke database. <br/>";
